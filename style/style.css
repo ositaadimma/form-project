@@ -1,0 +1,48 @@
+body {
+    background-color: #ECEEF1;
+}
+main {
+    height: 800px;
+    justify-content: center;
+}
+#up-info {
+    display: flex;
+    float: right;
+    margin-right: 0;
+    height: 40px;
+    align-items: center;
+    border: 1px solid red;
+}
+#logos {
+    width: 500px;
+    height: 90px;
+    object-fit: cover;
+    margin-left: 31%;
+    margin-top: 5%;
+    object-position: 15% 50%;
+}
+#central-section {
+    background-color: white;
+    margin-left: 36%;
+    margin-top: -5px;
+    border: 1px solid #c7c7c7;
+    width: 360px;
+    height: 600px;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+button {
+    background-color: #0077c5;
+    color: #c7c7c7;
+    font-weight: bold;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+    width: 100px;
+}
+footer {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
