@@ -1,5 +1,7 @@
 body {
     background-color: #ECEEF1;
+    font-family: 'Roboto', sans-serif;
+    color: #4c4c4c;
 }
 main {
     display: flex;
@@ -14,21 +16,21 @@ main {
     height: 40px;
     align-items: center;
 }
-#logos {
-    width: 500px;
-    height: 90px;
-    object-fit: cover;
-    margin-left: 31%;
-    margin-top: 25px;
+section {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .central-section {
     display: flex;
     flex-direction: column;
     background-color: white;
-    margin-top: 40px;
+    margin-top: 10px;
     border: 1px solid #c7c7c7;
-    width: 360px;
-    height: 700px;
+    width: 380px;
+    height: 670px;
     justify-self: center;
     align-self: center;
     text-align: center;
@@ -37,11 +39,34 @@ fieldset {
   border: 0;
   margin: 0;
   padding: 0;
-
+}
+#form h3 {
+  margin-top: 25px;
+  margin-bottom: -15px;
+  font-size: 23px;
+  font-weight: normal;
+}
+#form p {
+  font-size: 14px;
+}
+#form a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 12px;
+  color: #0077c5;
 }
 
 .form-info {
   padding: 20px 20px 0 20px;
+}
+.form-info label p {
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: -10px;
+  font-size: 12px;
+  font-weight: normal;
+  color: black;
+  margin-bottom: 5px;
 }
 .form-info input {
   background: #ffffff;
@@ -49,8 +74,15 @@ fieldset {
   padding: 12px;
   margin-top: 6px;
   width: 300px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 
+}
+.form-info #message p {
+  font-size: 10px;
+  margin-top: -25px;
+  margin-left: 8px;
+  margin-bottom: 30px;
+  text-align: left;
 }
 .form-info label {
     color: #395870;
@@ -67,8 +99,30 @@ fieldset {
   color: #ffffff;
   background-color: #0077c5;
   border-radius: 5px;
-  margin-top: 25px;
+  margin-top: -5px;
   margin-bottom: 20px;
+  height: 47px;
+  width: 327px;
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+.form-footer p em{
+  font-size: 12px;
+  font-weight: normal;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.form-footer .smaller {
+  background-color: #ECEEF1;
+  margin-top: 32px;
+  padding: 10px;
+}
+.form-footer .smaller #text{
+  font-size: 10px;
+}
+.form-footer .smaller #text a {  
+  font-size: 10px;
 }
 
 footer {
