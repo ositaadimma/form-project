@@ -11,7 +11,7 @@ Building an HTML and css page that matches the appearance of this page https://a
 </p>
 
 # Live Demo
-[Click here for Live Demo]https://raw.githack.com/ositaadimma/form-project/form/index.html
+[Click here for Live Demo](https://raw.githack.com/ositaadimma/form-project/form/index.html)
 # Getting Started
 
 # Authors
