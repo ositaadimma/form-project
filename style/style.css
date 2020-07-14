@@ -106,6 +106,7 @@ fieldset {
   font-size: 17px;
   cursor: pointer;
   box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.3);
+
 }
 .form-footer p em{
   font-size: 12px;
@@ -116,18 +117,21 @@ fieldset {
 .form-footer .smaller {
   background-color: #ECEEF1;
   margin-top: 32px;
-  padding: 10px;
+  padding: 12px;
 }
 .form-footer .smaller #text{
   font-size: 10px;
 }
-.form-footer .smaller #text a {  
+.form-footer .smaller #text a {
   font-size: 10px;
 }
 
 footer {
-    margin-top: 130px;
+    margin-top: 80px;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 40px;
+}
+footer a {
+  text-decoration: none;
 }
