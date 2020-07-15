@@ -23,21 +23,23 @@
             </div>
             <div class="central-section">
                 <div id="form">
-                    <p><h3>Create an Intuit account</h3><br></p>
-                    <p>One account for everything Intuit, including Mint.<br> <a href="#">Learn more</a></p>
-                    <form action="index.html">
+                      <h3>Create an Intuit account</h3><br>
+                    <p>
+                      One account for everything Intuit, including Mint.<br> <a href="#">Learn more</a>
+                    </p>
+                    <form action="POST">
                         <fieldset class="form-info">
                             <label for="email">Email address</label>
                             <input name="email" type="email" id="email">
-                            <label for="number">Phone (recomended)</label>
-                            <input name="number" type="tel">
+                            <label for="Phone">Phone (recomended)</label>
+                            <input name="number" type="tel" id="Phone">
                             <div id="message">
                                 <p>Standard call, messaging or data rates may apply.</p>
                             </div>
                             <label for="password">Password</label>
-                            <div id="opened">
+                           <div id="opened">
                                 <input id="password" type="password" name="password">
-                                <img src="img/openedpad.png">
+                                <img src="img/openedpad.png" alt="open padlock for button">
                             </div>
                             <button class="form-button" style="font-family: Helvetica" type="button"><i class="fa fa-lock" aria-hidden="true">&nbsp; Create Account</i></button>
                         </fieldset>
