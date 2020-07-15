@@ -74,8 +74,16 @@ fieldset {
   font-weight: normal;
 }
 
+.form-info p {
+  margin-bottom: 20px;
+}
+
 #form p {
   font-size: 14px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 #form a {
@@ -138,10 +146,6 @@ label {
   color: #c7c7c7;
 }
 
-.form-info p {
-  margin-bottom: 20px;
-}
-
 .form-info #message p {
   font-size: 10px;
   margin-top: -25px;
@@ -199,10 +203,6 @@ footer {
   font-size: 12px;
   margin-bottom: 25px;
   font-weight: 200;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
 
 .footer-button {
