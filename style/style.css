@@ -170,7 +170,7 @@ label {
   border: 1px solid #333;
 }
 
-.form-footer p em{
+.form-footer p em {
   font-size: 12px;
   font-weight: normal;
   color: #757575;
@@ -184,7 +184,7 @@ label {
   border-bottom: 1px solid #c6c7cc;
 }
 
-.form-footer .smaller #text{
+.form-footer .smaller #text {
   font-size: 10px;
   color: #8d9096;
 }
